@@ -13,7 +13,7 @@ How to actually use this framework for your AI system.
 ## The Three Documents You Need
 
 ### 1. The Policy
-**File:** `policies/FEDRAMP-AI-POLICY.md`
+**File:** `policies/AI-COMPLIANCE-POLICY.md`
 
 **What it is:** Your rules for how AI systems should work. Write down what you're doing and why.
 
@@ -26,7 +26,7 @@ How to actually use this framework for your AI system.
 **Time required:** 30 minutes to read, 1-2 hours to customize
 
 ### 2. The Checklist
-**File:** `checklist/FEDRAMP-AI-CHECKLIST.md`
+**File:** `checklist/AI-COMPLIANCE-CHECKLIST.md`
 
 **What it is:** Weekly/monthly reality check. "Are we actually doing what we said we'd do?"
 
@@ -47,11 +47,11 @@ How to actually use this framework for your AI system.
 **What to do:**
 ```bash
 # Week 1
-cp checklist/FEDRAMP-AI-CHECKLIST.md tracking/2024-07-week1.md
+cp checklist/AI-COMPLIANCE-CHECKLIST.md tracking/2024-07-week1.md
 # Fill it out, count score
 
 # Week 2
-cp checklist/FEDRAMP-AI-CHECKLIST.md tracking/2024-07-week2.md
+cp checklist/AI-COMPLIANCE-CHECKLIST.md tracking/2024-07-week2.md
 # Fill it out, count score again
 # Notice: did it go up? Stay the same? Go down?
 ```
@@ -113,8 +113,8 @@ The policy is pretty generic. Make it specific to your situation.
 **Find this:**
 ```markdown
 This policy applies to:
-- AI/Machine Learning systems processing federal data
-- Models trained on sensitive or classified information
+- AI/Machine Learning systems processing sensitive data
+- Models trained on protected information
 ```
 
 **Change to:**
@@ -130,8 +130,8 @@ This policy applies to:
 **Find this:**
 ```markdown
 This policy applies to:
-- AI/Machine Learning systems processing federal data
-- Models trained on sensitive or classified information
+- AI/Machine Learning systems processing sensitive data
+- Models trained on protected information
 ```
 
 **Change to:**
